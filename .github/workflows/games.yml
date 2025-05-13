@@ -74,5 +74,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/games:${{ matrix.game }}
-            ${{ github.repository_owner == 'pelican-eggs' && format('ghcr.io/parkervcp/games:{0}', matrix.game) || '' }}
+            ghcr.io/deihim007/games:${{ matrix.game }}
