@@ -16,15 +16,15 @@ jobs:
       fail-fast: false
       matrix:
         game:
-          - altv
-          - arma3
-          - dayz                
-          - mohaa
-          - rust
+          # - altv
+          # - arma3
+          # - dayz                
+          # - mohaa
+          # - rust
           - samp
-          - source
-          - valheim
-          - thebattleforwesnoth
+          # - source
+          # - valheim
+          # - thebattleforwesnoth
           
     steps:
       - uses: actions/checkout@v4
@@ -52,7 +52,7 @@ jobs:
       fail-fast: false
       matrix:
         game:
-          - minetest
+          # - minetest
           - mta
     steps:
       - uses: actions/checkout@v4
